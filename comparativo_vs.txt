@@ -1,0 +1,81 @@
+Validation split:  0.5
+Train on 4601 samples, validate on 4544 samples
+Epoch 1/5
+4601/4601 [==============================] - 18s 4ms/step - loss: 1.7412 - acc: 0.6090 - val_loss: 1.0145 - val_acc: 0.7370
+Epoch 2/5
+4601/4601 [==============================] - 18s 4ms/step - loss: 0.5068 - acc: 0.8644 - val_loss: 0.9611 - val_acc: 0.7595
+Epoch 3/5
+4601/4601 [==============================] - 17s 4ms/step - loss: 0.2533 - acc: 0.9257 - val_loss: 0.9343 - val_acc: 0.7740
+Epoch 4/5
+4601/4601 [==============================] - 18s 4ms/step - loss: 0.1346 - acc: 0.9620 - val_loss: 0.9791 - val_acc: 0.7854
+Epoch 5/5
+4601/4601 [==============================] - 17s 4ms/step - loss: 0.0770 - acc: 0.9776 - val_loss: 1.1372 - val_acc: 0.7799
+
+Validation split:  0.4
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Train on 5527 samples, validate on 3618 samples
+Epoch 1/5
+5527/5527 [==============================] - 25s 5ms/step - loss: 1.6222 - acc: 0.6311 - val_loss: 0.9156 - val_acc: 0.7573
+Epoch 2/5
+5527/5527 [==============================] - 19s 4ms/step - loss: 0.4960 - acc: 0.8549 - val_loss: 0.9705 - val_acc: 0.7620
+Epoch 3/5
+5527/5527 [==============================] - 19s 3ms/step - loss: 0.2663 - acc: 0.9197 - val_loss: 0.8540 - val_acc: 0.8054
+Epoch 4/5
+5527/5527 [==============================] - 20s 4ms/step - loss: 0.1438 - acc: 0.9564 - val_loss: 0.8905 - val_acc: 0.8040
+Epoch 5/5
+5527/5527 [==============================] - 20s 4ms/step - loss: 0.0795 - acc: 0.9785 - val_loss: 1.1214 - val_acc: 0.7955
+
+Validation split:  0.3
+Train on 6445 samples, validate on 2700 samples
+Epoch 1/5
+6445/6445 [==============================] - 20s 3ms/step - loss: 1.4974 - acc: 0.6528 - val_loss: 0.8741 - val_acc: 0.7763
+Epoch 2/5
+6445/6445 [==============================] - 18s 3ms/step - loss: 0.4700 - acc: 0.8686 - val_loss: 0.7984 - val_acc: 0.7933
+Epoch 3/5
+6445/6445 [==============================] - 18s 3ms/step - loss: 0.2519 - acc: 0.9266 - val_loss: 0.8701 - val_acc: 0.8070
+Epoch 4/5
+6445/6445 [==============================] - 18s 3ms/step - loss: 0.1424 - acc: 0.9566 - val_loss: 0.8324 - val_acc: 0.8130
+Epoch 5/5
+6445/6445 [==============================] - 18s 3ms/step - loss: 0.0824 - acc: 0.9746 - val_loss: 1.1640 - val_acc: 0.7989
+
+Validation split:  0.25
+Train on 6903 samples, validate on 2242 samples
+Epoch 1/5
+6903/6903 [==============================] - 18s 3ms/step - loss: 1.4615 - acc: 0.6588 - val_loss: 0.8727 - val_acc: 0.7694
+Epoch 2/5
+6903/6903 [==============================] - 18s 3ms/step - loss: 0.4729 - acc: 0.8677 - val_loss: 0.8853 - val_acc: 0.7779
+Epoch 3/5
+6903/6903 [==============================] - 18s 3ms/step - loss: 0.2619 - acc: 0.9222 - val_loss: 0.7418 - val_acc: 0.8256
+Epoch 4/5
+6903/6903 [==============================] - 18s 3ms/step - loss: 0.1483 - acc: 0.9538 - val_loss: 0.8193 - val_acc: 0.8287
+Epoch 5/5
+6903/6903 [==============================] - 18s 3ms/step - loss: 0.0894 - acc: 0.9723 - val_loss: 1.0185 - val_acc: 0.8167
+
+Validation split:  0.2
+Train on 7357 samples, validate on 1788 samples
+Epoch 1/5
+7357/7357 [==============================] - 18s 2ms/step - loss: 1.4351 - acc: 0.6617 - val_loss: 0.8205 - val_acc: 0.7864
+Epoch 2/5
+7357/7357 [==============================] - 18s 2ms/step - loss: 0.4849 - acc: 0.8633 - val_loss: 0.7996 - val_acc: 0.8065
+Epoch 3/5
+7357/7357 [==============================] - 18s 2ms/step - loss: 0.2702 - acc: 0.9172 - val_loss: 0.7692 - val_acc: 0.8266
+Epoch 4/5
+7357/7357 [==============================] - 18s 2ms/step - loss: 0.1601 - acc: 0.9539 - val_loss: 0.7877 - val_acc: 0.8249
+Epoch 5/5
+7357/7357 [==============================] - 18s 2ms/step - loss: 0.0940 - acc: 0.9698 - val_loss: 0.8899 - val_acc: 0.8395
+
+Validation split:  0.1
+Train on 8279 samples, validate on 866 samples
+Epoch 1/5
+8279/8279 [==============================] - 19s 2ms/step - loss: 1.3655 - acc: 0.6781 - val_loss: 0.7443 - val_acc: 0.8106
+Epoch 2/5
+8279/8279 [==============================] - 18s 2ms/step - loss: 0.4710 - acc: 0.8669 - val_loss: 0.6308 - val_acc: 0.8453
+Epoch 3/5
+8279/8279 [==============================] - 18s 2ms/step - loss: 0.2719 - acc: 0.9208 - val_loss: 0.5859 - val_acc: 0.8614
+Epoch 4/5
+8279/8279 [==============================] - 18s 2ms/step - loss: 0.1628 - acc: 0.9531 - val_loss: 0.6407 - val_acc: 0.8649
+Epoch 5/5
+8279/8279 [==============================] - 18s 2ms/step - loss: 0.0957 - acc: 0.9703 - val_loss: 0.7681 - val_acc: 0.8533
+
