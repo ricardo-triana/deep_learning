@@ -1,0 +1,53 @@
+Los modelos definitivos son 
+
+Estrategia 1:
+VGGOpt-conv-1.h5
+
+Estrategia 2:
+RTR-modelo-2.h5 
+
+Todos lo modelos generados en cada paso de la actividad se encuentran en:
+https://drive.google.com/open?id=1-HqkU44s7eR1t105Ps79WmUw_Dc9u_3f
+
+Parte 1:
+Se realizaron las pruebas con VGG16 y Xception. 
+
+Se guardaron los modelos de las pruebas con diferentes tamaños de batch en archivos con nombre XXX-batch_size-YY.h5 donde XXX es el nombre del modelo base (VGG o Xception) y YY es el batch size (16, 32,64,128).
+VGG-batch_size-16.h5
+VGG-batch_size-32.h5
+VGG-batch_size-64.h5
+VGG-batch_size-128.h5
+Xception-batch_size-16.h5
+Xception-batch_size-32.h5
+Xception-batch_size-64.h5
+Xception-batch_size-128.h5
+
+Se guardaron los modelos de las pruebas con diferentes funciones de activación en archivos con nombre XXX-func_act-YY.h5 donde XXX es el nombre del modelo base (VGG o Xception) y YY es la 
+función de activación (relu, sigmoid, tanh).
+VGG-fun_act-relu.h5
+VGG-fun_act-sigmoid.h5
+VGG-fun_act-tanh.h5
+Xception-fun_act-relu.h5
+Xception-fun_act-sigmoid.h5
+Xception-fun_act-tanh.h5
+
+Se guardaron los modelos de las pruebas con diferentes números de neuronas en archivos con nombre XXX-num_new-YY.h5 donde XXX es el nombre del modelo base (VGG o Xception) y YY es el número de neuronas (32, 64, 128, 256, 512).
+VGG-num_neu-relu.h5
+VGG-num_neu-sigmoid.h5
+VGG-num_neu-tanh.h5
+Xception-num_neu-relu.h5
+Xception-num_neu-sigmoid.h5
+Xception-num_neu-tanh.h5
+
+Se guardaron los modelos de las pruebas con diferentes optimizadores en archivos con nombre XXX-func_act-YY.h5 donde XXX es el nombre del modelo base (VGG o Xception) y YY es el optimizador (rmsprop, adam, adadelta, nadam).
+VGG-opt-relu.h5
+VGG-opt-sigmoid.h5
+VGG-opt-tanh.h5
+Xception-opt-relu.h5
+Xception-opt-sigmoid.h5
+Xception-opt-tanh.h5
+
+
+
+
+
